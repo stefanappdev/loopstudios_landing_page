@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+@media screen and (min-width:650px) and (max-width:1440px) {
+    
+
+
+
+#content-box{
+    display:flexbox;
+    flex-direction: column ;
+    height: 100vh;   
+
+}
+
+
+
+
+#Header{
+    background:url('/public/images/image-hero.jpg');
+    height: 55%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+   
+}
+
+#nav-container{
+    position:relative;
+    left:1000px;
+    bottom: 210px;
+}
+
+.main-nav{
+  display:inline-flex;
+  padding: 5px;
+}
+
+.main-nav>a{
+    margin:5px;
+    color:#feffff;
+    font-size: 15px
+}
+a{
+text-decoration: none;
+}
+#loopstudios{
+    color: #fefdfd;
+    font-weight:bold;
+    position: relative;
+    left:100px;
+    font-size: x-large;
+}
+
+#Header-Promo{
+color: #feffff;
+border: 2px solid #feffff;
+width: 300px;
+height: 160px;
+position: relative;
+left: 100px;
+top:50px;
+}
+
+.Header-Promo-text{
+    font-weight:300;
+    font-size:35px;
+}
+
+#Creations{
+    background-color: rgba(254,255,254,255);
+    height: auto;
+    
+}
+
+#Adverts{
+    background-color: rgba(254,255,254,255);
+    height: 33%;
+    
+}
+
+
+}
