@@ -10,9 +10,9 @@
 
 
 #content-box{
-    display:flexbox;
+    display:flex;
     flex-direction: column ;
-    height: 100vh;   
+    height: 200vh;   
 
 }
 
@@ -21,17 +21,18 @@
 
 #Header{
     background:url('/public/images/image-hero.jpg');
-    height: 55%;
+    height: 30%;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 10px;
+    position: relative;
    
 }
 
 #nav-container{
-    position:relative;
+    position:absolute;
     left:1000px;
-    bottom: 210px;
+    bottom:260px;
 }
 
 .main-nav{
@@ -44,9 +45,11 @@
     color:#feffff;
     font-size: 15px
 }
+
 a{
 text-decoration: none;
 }
+
 #loopstudios{
     color: #fefdfd;
     font-weight:bold;
@@ -72,15 +75,110 @@ top:50px;
 
 #Creations{
     background-color: rgba(254,255,254,255);
-    height: auto;
-    
+    height:auto;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 260px;
 }
+
+
+#Creations>h2{
+    font-size: larger;
+}
+
 
 #Adverts{
     background-color: rgba(254,255,254,255);
-    height: 33%;
-    
+    height: 20%;
+    padding-top: 50px;
+    display: flex;
+    position: relative;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
 }
+
+#VR-img-container{
+    height:100%;
+    width:60%;
+}
+
+#VR-img{
+    height: 100%;
+    width: 50%; 
+
+}
+
+#creations-imgs{
+    display:grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4,10%);
+    height: 70%;
+    gap:10px;
+
+ 
+}
+
+.grid-element{
+  border-radius:5px ;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  background-color:blue ;
+}
+
+.grid-element>p{
+    align-self: flex-end;
+    color: #ffffff;
+    font-size:large;
+}
+
+
+#img1-container{
+    background-image: url('/public/images/image-deep-earth.jpg');
+    background-size: 100% 100%;
+}
+
+#img2-container{
+    background-image: url('/public/images/image-night-arcade.jpg');
+    background-size: 100% 100%;
+}
+
+
+#img3-container{
+    background-image: url('/public/images/image-soccer-team.jpg');
+    background-size: 100% 100%;
+}
+
+
+
+#img4-container{
+    background-image: url('/public/images/image-grid.jpg');
+    background-size: 100% 100%;
+}
+
+
+#img5-container{
+    background-image: url('/public/images/image-from-above.jpg');
+    background-size: 100% 100%;
+}
+
+#img6-container{
+    background-image: url('/public/images/image-pocket-borealis.jpg');
+    background-size: 100% 100%;
+}
+
+#img7-container{
+    background-image: url('/public/images/image-curiosity.jpg');
+    background-size: 100% 100%;
+}   
+
+#img8-container{
+    background-image: url('/public/images/image-fisheye.jpg');
+    background-size: 100% 100%;
+}
+
 
 
 }
