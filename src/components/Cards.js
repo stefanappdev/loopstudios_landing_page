@@ -51,29 +51,35 @@ const Cards = () => {
         <div id='creations-imgs'>
 
           
+           
+                <div class='grid-element' id='img1-container'>
+                 
+                  <a>
+                      <p>DEEP EARTH</p>
+                 </a>
+                   
 
-            <div class='grid-element' id='img1-container'>
-
-              <p>DEEP EARTH</p>
-
-            </div>
+                </div>
+            
+           
 
 
 
             <div class='grid-element' id='img2-container'>
-
-             
-
-            <p>NIGHT ARCADE</p>
-
+                
+                
+                <a>
+                  <p>NIGHT ARCADE</p>
+                </a>
                         
             </div>
 
 
             <div class='grid-element' id='img3-container'>
 
-              <p>SOCCER TEAM VR</p>
-            
+              <a>
+                <p>SOCCER TEAM VR</p>
+              </a>
 
             </div>
 
@@ -81,14 +87,16 @@ const Cards = () => {
 
             <div class='grid-element' id='img4-container'>
 
-              <p>THE GRID </p>
+              <a>
+                <p>THE GRID </p>
+              </a>
             
             </div>
 
 
             <div class='grid-element' id='img5-container'>
 
-              <p>FROM UP ABOVE VR</p>
+              <a><p>FROM UP ABOVE VR</p></a>
             
 
             </div>
@@ -97,7 +105,7 @@ const Cards = () => {
 
             <div class='grid-element' id='img6-container'>
 
-              <p>POCKET BOREALIS</p>
+              <a><p>POCKET BOREALIS</p></a>
             
 
             </div>
@@ -106,7 +114,7 @@ const Cards = () => {
 
             <div class='grid-element' id='img7-container'>
 
-              <p>THE CURIOSITY</p>
+             <a><p>THE CURIOSITY</p></a> 
             
 
             </div>
@@ -115,7 +123,7 @@ const Cards = () => {
 
             <div class='grid-element' id='img8-container'>
 
-              <p>MAKE IT FISHEYE</p>
+              <a><p>MAKE IT FISHEYE</p></a>
             
 
             </div>
@@ -127,6 +135,24 @@ const Cards = () => {
       
       
       </section>
+
+
+      <br/>
+      <br/>
+
+      <footer id='footer-section' >
+         <div id='socials_and_footer-logo'>
+          <span id='loopstudios-footer-logo'>loopstudios</span>
+          <img alt="Follow us on Facebook" src='/images/icons/icon-facebook.svg'></img>
+          <img alt="Follow us on Twitter" src='/images/icons/icon-twitter.svg'></img>
+          <img alt="Follow us on pinterest"  src='/images/icons/icon-pinterest.svg'></img>
+          <img alt="Follow us on Instagram" src='/images/icons/icon-instagram.svg'></img>
+        </div>
+
+  
+        </footer>
+       
+
     </div>
 
   </main>

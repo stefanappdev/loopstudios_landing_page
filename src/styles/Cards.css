@@ -12,32 +12,22 @@
 #content-box{
     display:flex;
     flex-direction: column ;
-    height: 200vh;   
+    height:100%;   
 
 }
 
 
-
-
-#Header{
-    background:url('/public/images/image-hero.jpg');
-    height: 30%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 10px;
-    position: relative;
-   
-}
 
 #nav-container{
-    position:absolute;
+    position:relative;
     left:1000px;
-    bottom:260px;
+    bottom:320px;
 }
 
 .main-nav{
   display:inline-flex;
   padding: 5px;
+  
 }
 
 .main-nav>a{
@@ -53,7 +43,7 @@ text-decoration: none;
 #loopstudios{
     color: #fefdfd;
     font-weight:bold;
-    position: relative;
+    position:relative;
     left:100px;
     font-size: x-large;
 }
@@ -62,8 +52,9 @@ text-decoration: none;
 color: #feffff;
 border: 2px solid #feffff;
 width: 300px;
-height: 160px;
+height: 250px;
 position: relative;
+margin-bottom: 20px;
 left: 100px;
 top:50px;
 }
@@ -73,17 +64,31 @@ top:50px;
     font-size:35px;
 }
 
+
+#Header{
+    background:url('/public/images/image-hero.jpg');
+    height:60%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    position: relative;
+   
+}
+
+
 #Creations{
     background-color: rgba(254,255,254,255);
-    height:auto;
+    height:20%;
     padding: 10px;
-    margin-left: 280px;
+    margin-left: 350px;
+    justify-self:center;
 }
+
 
 
 #Adverts{
     background-color: rgba(254,255,254,255);
-    height: 20%;
+    height:5%;
     padding-top: 50px;
     display: flex;
     position: relative;
@@ -92,9 +97,22 @@ top:50px;
     flex-direction:column;
 }
 
+#footer-section{
+    height: 100px;
+    background-color: black;
+    color:#feffff;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+
+
+
 #VR-img-container{
     height:80%;
     width:40%;
+    margin-right: 80px;
 }
 
 #VR-img{
@@ -107,7 +125,7 @@ top:50px;
     grid-template-rows: repeat(2,1fr);
     grid-template-columns: repeat(4,10%);
     height: 70%;
-    row-gap: 5px;
+    gap: 10px;
 
  
 }
@@ -115,13 +133,28 @@ top:50px;
 .grid-element{
   border-radius:5px ;
   height: 200px;
-  width: 100px;
+  width: 100px;;
   display: flex;
   flex-direction: row;
-  background-color:blue ;
 }
 
-.grid-element>p{
+
+
+a{
+    flex-direction: row;
+    display: flex;
+}
+
+a:active{
+    background-color:none;
+}
+
+a:hover{
+    background-color: rgba(207,203,200,255);
+}
+
+
+a>p{
     align-self: flex-end;
     color: #ffffff;
     font-size:large;
@@ -173,5 +206,30 @@ top:50px;
 }
 
 
+
+#socials_and_footer-logo{
+    display: inline-flex;
+
+
+}
+
+#loopstudios-footer-logo{
+    margin-right: 900px;
+}
+
+#loopstudios-footer-logo{
+    color: #fefdfd;
+    font-weight:bold;
+    font-size: x-large;
+    padding:5px ;
+    }
+    
+
+
+#socials_and_footer-logo>img{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
 
 }
