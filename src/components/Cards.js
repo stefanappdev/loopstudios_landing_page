@@ -15,7 +15,7 @@ const Cards = () => {
             </span>
 
             
-                  <div class="Navbar" id="Header-Nav">
+                  <div class="Navbar" id="Header-Nav-Desktop">
                     <nav >
                     <a href="#">About</a>
                     <a href="#">Events</a>
