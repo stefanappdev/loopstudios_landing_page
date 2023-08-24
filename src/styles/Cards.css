@@ -3,233 +3,221 @@
     -moz-box-sizing: border-box;
 }
 
+/*desktop*/
 
-@media screen and (min-width:650px) and (max-width:1440px) {
+
+
+@media (min-width:700px){
     
 
 
-
-#content-box{
-    display:flex;
-    flex-direction: column ;
-    height:100%;   
-
-}
-
-
-
-#nav-container{
-    position:relative;
-    left:1000px;
-    bottom:320px;
-}
-
-.main-nav{
-  display:inline-flex;
-  padding: 5px;
-  
-}
-
-.main-nav>a{
-    margin:5px;
-    color:#feffff;
-    font-size: 15px
-}
-
-a{
-text-decoration: none;
-}
-
-#loopstudios{
-    color: #fefdfd;
-    font-weight:bold;
-    position:relative;
-    left:100px;
-    font-size: x-large;
-}
-
-#Header-Promo{
-color: #feffff;
-border: 2px solid #feffff;
-width: 300px;
-height: 250px;
-position: relative;
-margin-bottom: 20px;
-left: 100px;
-top:50px;
-}
-
-.Header-Promo-text{
-    font-weight:300;
-    font-size:35px;
-}
-
-
-#Header{
-    background:url('/public/images/image-hero.jpg');
-    height:60%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 10px;
-    position: relative;
-   
-}
-
-
-#Creations{
-    background-color: rgba(254,255,254,255);
-    height:20%;
-    padding: 10px;
-    margin-left: 350px;
-    justify-self:center;
-}
-
-
-
-#Adverts{
-    background-color: rgba(254,255,254,255);
-    height:5%;
-    padding-top: 50px;
-    display: flex;
-    position: relative;
-    align-items:center;
-    justify-content: center;
-    flex-direction:column;
-}
-
-#footer-section{
-    height: 100px;
-    background-color: black;
-    color:#feffff;
-    display: flex;
-    flex-direction: row;
-  
-}
-
-
-
-
-#VR-img-container{
-    height:80%;
-    width:40%;
-    margin-right: 80px;
-}
-
-#VR-img{
-    height: 120%;
-    width: 100%;    
-}
-
-#creations-imgs{
-    display:grid;
-    grid-template-rows: repeat(2,1fr);
-    grid-template-columns: repeat(4,10%);
-    height: 70%;
-    gap: 10px;
-
- 
-}
-
-.grid-element{
-  border-radius:5px ;
-  height: 200px;
-  width: 100px;;
-  display: flex;
-  flex-direction: row;
-}
-
-
-
-a{
-    flex-direction: row;
-    display: flex;
-}
-
-a:active{
-    background-color:none;
-}
-
-a:hover{
-    background-color: rgba(207,203,200,255);
-}
-
-
-a>p{
-    align-self: flex-end;
-    color: #ffffff;
-    font-size:large;
-}
-
-
-#img1-container{
-    background-image: url('/public/images/image-deep-earth.jpg');
-    background-size: 100% 100%;
-}
-
-#img2-container{
-    background-image: url('/public/images/image-night-arcade.jpg');
-    background-size: 100% 100%;
-}
-
-
-#img3-container{
-    background-image: url('/public/images/image-soccer-team.jpg');
-    background-size: 100% 100%;
-}
-
-
-
-#img4-container{
-    background-image: url('/public/images/image-grid.jpg');
-    background-size: 100% 100%;
-}
-
-
-#img5-container{
-    background-image: url('/public/images/image-from-above.jpg');
-    background-size: 100% 100%;
-}
-
-#img6-container{
-    background-image: url('/public/images/image-pocket-borealis.jpg');
-    background-size: 100% 100%;
-}
-
-#img7-container{
-    background-image: url('/public/images/image-curiosity.jpg');
-    background-size: 100% 100%;
-}   
-
-#img8-container{
-    background-image: url('/public/images/image-pocket-borealis.jpg');
-    background-size: 100% 100%;
-}
-
-
-
-#socials_and_footer-logo{
-    display: inline-flex;
-
-
-}
-
-#loopstudios-footer-logo{
-    margin-right: 900px;
-}
-
-#loopstudios-footer-logo{
-    color: #fefdfd;
-    font-weight:bold;
-    font-size: x-large;
-    padding:5px ;
+    #Header{
+        display: flex;
+        flex-direction: column;
+        background:url('/public/images/image-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+        position:relative;
+        width: 100%;
     }
+
+   
+
+    .logo{
+      
+        color:#feffff;
+        font-weight: 500;
+        font-size: x-large;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .Navbar>nav>a{
+        margin-left: 5px;
+        color:#feffff;
+    }
+
+    .Navbar{
+        display: flex;
+        padding-top: 5px;
+        margin-left:120px;
+        align-items: end;
+        
+    }
+
+    #Header-logo_and_Nav{
+        display: inline-flex;
+        flex-direction: row;
+        padding-left: 100px;
+        margin-top: 5px;
+    }
+
+
+    #Header-Promo{
+        color: #feffff;
+        border: 2px solid #feffff;
+        width: 300px;
+        height: 250px;
+        position: relative;
+        margin-bottom: 20px;
+        left: 100px;
+        top:50px;
+        }
+
+
+        .Header-Promo-text{
+            font-weight:300;
+            font-size:35px;
+        }
+
+
+        #Ad-section{
+            background-color: rgba(254,255,254,255);
+            padding-top: 50px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction:column;
+        }
+        
+
+        #VR-img{
+            height: 300px;
+            width: 300px; 
+            
+        }
+
+
+        #Creations{
+            margin-top: 50px;
+            padding-left: 100px;
+        }
+
+        #Creation-imgs-container{
+            display:grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(4,10%);
+            height: 70%;
+            gap:50px;
+        
+        }
+
+
+        .Creation-img{
+            border-radius:5px ;
+            height: 200px;
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+          }
+
+        #img1-container{
+            background-image: url('/public/images/image-deep-earth.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img2-container{
+            background-image: url('/public/images/image-night-arcade.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        #img3-container{
+            background-image: url('/public/images/image-soccer-team.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        
+        #img4-container{
+            background-image: url('/public/images/image-grid.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        #img5-container{
+            background-image: url('/public/images/image-from-above.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img6-container{
+            background-image: url('/public/images/image-pocket-borealis.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img7-container{
+            background-image: url('/public/images/image-curiosity.jpg');
+            background-size: 100% 100%;
+        }   
+        
+        #img8-container{
+            background-image: url('/public/images/image-pocket-borealis.jpg');
+            background-size: 100% 100%;
+        }
+
+
+        .Creation-img a:active{
+            background-color:none;
+        }
+        
+        .Creation-img a:hover{
+            background-color: rgba(207,203,200,255);
+        }
+       
+        .Creation-img a{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .Creation-img a>p{
+            align-self: flex-end;
+            color: #feffff;
+        }
+
+        #footer-section{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            background-color: black;
+            padding-left:20px ;
+        }
+
+        #socials_and_footer-logo{
+            display: inline-flex;
+        }
+        
+        #loopstudios-footer-logo{
+            margin-right: 300px;
+        }
+        
+        #loopstudios-footer-logo{
+            color: #fefdfd;
+            font-weight:bold;
+            font-size: x-large;
+            padding:5px ;
+            }
+            
+        
+        
+        #loopstudios-socials{
+            
+            justify-content: end;
+            padding-top: 10px;
+            
+        }
+
+
+        #loopstudios-socials>img{
+            margin:5px ;
+        }
+        
+        
+        
+        
     
+ } 
 
-
-#socials_and_footer-logo>img{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-}
-
-}
+     
