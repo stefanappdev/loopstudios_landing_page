@@ -22,14 +22,7 @@
         width: 100%;
     }
 
-<<<<<<< HEAD
-#content-box{
-    display:flex;
-    flex-direction: column ;
-    height: 200vh;   
-=======
    
->>>>>>> DEV
 
     .logo{
         color:#feffff;
@@ -56,52 +49,14 @@
         
     }
 
-<<<<<<< HEAD
-#Header{
-    background:url('/public/images/image-hero.jpg');
-    height: 30%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 10px;
-    position: relative;
-   
-}
-
-#nav-container{
-    position:absolute;
-    left:1000px;
-    bottom:260px;
-}
-=======
 
 .dropdown{
         visibility: hidden;
         position: absolute;
     }
->>>>>>> DEV
 
 
-<<<<<<< HEAD
-.main-nav>a{
-    margin:5px;
-    color:#feffff;
-    font-size: 15px
-}
-
-a{
-text-decoration: none;
-}
-
-#loopstudios{
-    color: #fefdfd;
-    font-weight:bold;
-    position: relative;
-    left:100px;
-    font-size: x-large;
-}
-=======
   
->>>>>>> DEV
 
     #Header-logo_and_Nav{
         display: inline-flex;
