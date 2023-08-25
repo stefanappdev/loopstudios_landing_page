@@ -3,22 +3,60 @@
     -moz-box-sizing: border-box;
 }
 
+/*desktop*/
 
-@media screen and (min-width:650px) and (max-width:1440px) {
+
+
+@media (min-width:700px) and (max-width:1440px){ 
     
 
 
+    #Header{
+        display: flex;
+        flex-direction: column;
+        background:url('/public/images/image-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+        position:relative;
+        width: 100%;
+    }
 
+<<<<<<< HEAD
 #content-box{
     display:flex;
     flex-direction: column ;
     height: 200vh;   
+=======
+   
+>>>>>>> DEV
 
-}
+    .logo{
+        color:#feffff;
+        font-weight: 500;
+        font-size: x-large;
+        padding-top: 10px;
+    }
 
+    a{
+        text-decoration: none;
+    }
 
+    .Navbar>nav>a{
+        margin-left:10px;
+        color:#feffff;
+    }
 
+    .Navbar{
+        display: flex;
+        padding-top: 5px;
+        padding-left: 50px;
+        margin-left: 150px;
+        align-items: end;
+        
+    }
 
+<<<<<<< HEAD
 #Header{
     background:url('/public/images/image-hero.jpg');
     height: 30%;
@@ -34,12 +72,16 @@
     left:1000px;
     bottom:260px;
 }
+=======
 
-.main-nav{
-  display:inline-flex;
-  padding: 5px;
-}
+.dropdown{
+        visibility: hidden;
+        position: absolute;
+    }
+>>>>>>> DEV
 
+
+<<<<<<< HEAD
 .main-nav>a{
     margin:5px;
     color:#feffff;
@@ -57,22 +99,262 @@ text-decoration: none;
     left:100px;
     font-size: x-large;
 }
+=======
+  
+>>>>>>> DEV
 
-#Header-Promo{
-color: #feffff;
-border: 2px solid #feffff;
-width: 300px;
-height: 160px;
-position: relative;
-left: 100px;
-top:50px;
-}
+    #Header-logo_and_Nav{
+        display: inline-flex;
+        flex-direction: row;
+        padding-left: 100px;
+        margin-top: 5px;
+    }
 
-.Header-Promo-text{
-    font-weight:300;
-    font-size:35px;
-}
 
+    #Header-Promo{
+        color: #feffff;
+        border: 2px solid #feffff;
+        width: 300px;
+        height: 250px;
+        position: relative;
+        margin-bottom: 20px;
+        left: 100px;
+        top:50px;
+        }
+
+
+        .Header-Promo-text{
+            font-weight:300;
+            font-size:35px;
+        }
+
+
+        #Ad-section{
+            background-color: rgba(254,255,254,255);
+            padding-top: 50px;
+            padding-right:20px;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            flex-direction:column;
+        }
+        
+
+        #VR-img{
+            height: 300px;
+            width: 500px;
+             
+            
+        }
+
+
+        #Creations{
+            margin-top: 50px;
+            padding-left: 100px;
+        }
+
+        #Creation-imgs-container{
+            display:grid;
+            grid-template-rows: repeat(2,1fr);
+            grid-template-columns: repeat(4,10%);
+            height: 70%;
+            gap:50px;
+        
+        }
+
+
+        .Creation-img{
+            border-radius:5px ;
+            height: 200px;
+            width: 100px;
+            display: flex;
+            flex-direction: row;
+          }
+
+        #img1-container{
+            background-image: url('/public/images/image-deep-earth.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img2-container{
+            background-image: url('/public/images/image-night-arcade.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        #img3-container{
+            background-image: url('/public/images/image-soccer-team.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        
+        #img4-container{
+            background-image: url('/public/images/image-grid.jpg');
+            background-size: 100% 100%;
+        }
+        
+        
+        #img5-container{
+            background-image: url('/public/images/image-from-above.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img6-container{
+            background-image: url('/public/images/image-pocket-borealis.jpg');
+            background-size: 100% 100%;
+        }
+        
+        #img7-container{
+            background-image: url('/public/images/image-curiosity.jpg');
+            background-size: 100% 100%;
+        }   
+        
+        #img8-container{
+            background-image: url('/public/images/image-fisheye.jpg');
+            background-size: 100% 100%;
+        }
+
+
+        .Creation-img a:active{
+            background-color:none;
+        }
+        
+        .Creation-img a:hover{
+            background-color: rgba(207,203,200,255);
+        }
+       
+        .Creation-img a{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .Creation-img a>p{
+            align-self: flex-end;
+            color: #feffff;
+            font-weight:300;
+        }
+
+        #footer-section{
+            height: 100px;
+            width: 100%;
+            display: flex;
+            background-color: black;
+            padding-left:20px ;
+        }
+
+        #socials_and_footer-logo{
+            display: inline-flex;
+            gap:300px;
+        }
+        
+             
+        #loopstudios-footer-logo{
+            color: #fefdfd;
+            font-weight:bold;
+            font-size: x-large;
+            margin-top:5px ;
+            }
+            
+        
+        
+        #loopstudios-socials{
+            
+            margin-top: 5px;
+           margin-left: 100px;
+            
+        }
+
+
+        #loopstudios-socials>img{
+            margin:5px ;
+        }
+         
+ } 
+
+     
+@media (min-width:375px) and (max-width:699px){
+
+    #Header{
+        display: flex;
+        flex-direction:column;
+        background:url('/public/images/image-hero.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 20px;
+        height: 400px;
+        position:relative;
+        width: 100%;
+    }
+
+
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        top: -40px;
+        left:350px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0a0a0a;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        color: #ffffff;
+        z-index: 1;
+      }
+
+
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+
+    #Header-Promo{
+        color: #feffff;
+        border: 2px solid #feffff;
+        width: 300px;
+        height: 275px;
+        margin-bottom: 20px;
+        left: 100px;
+        top:50px;
+        align-self:center;
+        justify-self: center;
+        }
+
+
+        .Header-Promo-text{
+            font-weight:300;
+            font-size:47px;
+        }
+
+
+
+    .logo{
+        color:#feffff;
+        font-weight: 500;
+        font-size: x-large;
+        padding-top: 10px;
+    }
+
+
+
+    #Ad-section{
+        padding-left:100px;
+    }
+
+
+    #Header-Nav-Desktop{
+        visibility: hidden;
+    }
+
+
+<<<<<<< HEAD
 #Creations{
     background-color: rgba(254,255,254,255);
     height:auto;
@@ -157,6 +439,156 @@ top:50px;
     background-image: url('/public/images/image-grid.jpg');
     background-size: 100% 100%;
 }
+=======
+    
+    
+    #VR-img{
+        height: 200px;
+        width: 275px;
+        
+    }
+
+
+    #Creations{
+        margin-top: 50px;
+        padding-left: 100px;
+    }
+
+    #Creation-imgs-container{
+        display:flex;
+        flex-direction: column;
+        row-gap:10px;
+    
+    }
+
+
+    .Creation-img{
+        border-radius:5px ;
+        height: 100px;
+        width: 200px;
+        display: flex;
+        flex-direction: row;
+      }
+
+
+      .Creation-img a>p{
+        align-self: flex-end;
+        color: #feffff;
+        flex-wrap:wrap;
+        font-weight:200;
+        font-size: 32px;
+    } 
+    
+    
+    
+    .Creation-img a:active{
+            background-color:none;
+        }
+        
+        .Creation-img a:hover{
+            background-color: rgba(207,203,200,255);
+        }
+       
+
+     .Creation-img a:active{
+            background-color:none;
+        }
+        
+        .Creation-img a:hover{
+            background-color: rgba(207,203,200,255);
+        }
+
+
+
+
+        #footer-section{
+            height: 100px;
+            width: 100%;
+            display: inline-flex;
+            flex-direction: row;
+            background-color: black;
+            padding-left:20px ;
+            
+    
+        }
+
+       
+        
+             
+        #loopstudios-footer-logo{
+            color: #fefdfd;
+            font-weight:bold;
+            font-size: x-large;
+            padding:5px ;
+           
+            }
+
+
+            #socials_and_footer-logo{
+                display: inline-flex;
+                padding-left: 20px;
+                gap:100px;
+            }
+            
+        
+        
+            #loopstudios-socials{
+            
+                margin-top: 5px;
+               margin-left: 100px;
+                
+            }
+
+        #loopstudios-socials>img{
+            margin:5px ;
+            
+        }
+
+    #img1-container{
+        background-image: url('/public/images/mobile/image-deep-earth.jpg');
+        background-size: 100% 100%;
+    }
+    
+    #img2-container{
+        background-image: url('/public/images/mobile/image-night-arcade.jpg');
+        background-size: 100% 100%;
+    }
+    
+    
+    #img3-container{
+        background-image: url('/public/images/mobile/image-soccer-team.jpg');
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    #img4-container{
+        background-image: url('/public/images/mobile/image-grid.jpg');
+        background-size: 100% 100%;
+    }
+    
+    
+    #img5-container{
+        background-image: url('/public/images/mobile/image-from-above.jpg');
+        background-size: 100% 100%;
+    }
+    
+    #img6-container{
+        background-image: url('/public/images/mobile/image-pocket-borealis.jpg');
+        background-size: 100% 100%;
+    }
+    
+    #img7-container{
+        background-image: url('/public/images/mobile/image-curiosity.jpg');
+        background-size: 100% 100%;
+    }   
+    
+    #img8-container{
+        background-image: url('/public/images/mobile/image-fisheye.jpg');
+        background-size: 100% 100%;
+    }
+
+>>>>>>> DEV
 
 
 #img5-container{
