@@ -44,10 +44,17 @@
         display: flex;
         padding-top: 5px;
         padding-left: 50px;
-        margin-left: 100px;
+        margin-left: 150px;
         align-items: end;
         
     }
+
+
+.dropdown{
+        visibility: hidden;
+        position: absolute;
+    }
+
 
   
 
@@ -193,6 +200,7 @@
 
         #socials_and_footer-logo{
             display: inline-flex;
+            gap:300px;
         }
         
              
@@ -200,16 +208,15 @@
             color: #fefdfd;
             font-weight:bold;
             font-size: x-large;
-            padding:5px ;
+            margin-top:5px ;
             }
             
         
         
         #loopstudios-socials{
             
-            justify-content: end;
-            padding-top: 10px;
-            margin-left:400px;
+            margin-top: 5px;
+           margin-left: 100px;
             
         }
 
@@ -221,17 +228,73 @@
  } 
 
      
-@media (min-width:375px) and (max-width:680px){
+@media (min-width:375px) and (max-width:699px){
 
     #Header{
         display: flex;
-        flex-direction: column;
+        flex-direction:column;
         background:url('/public/images/image-hero.jpg');
         background-repeat: no-repeat;
         background-size: 100% 100%;
+        padding: 20px;
         height: 400px;
         position:relative;
         width: 100%;
+    }
+
+
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        top: -40px;
+        left:350px;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0a0a0a;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        color: #ffffff;
+        z-index: 1;
+      }
+
+
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+
+    #Header-Promo{
+        color: #feffff;
+        border: 2px solid #feffff;
+        width: 300px;
+        height: 275px;
+        margin-bottom: 20px;
+        left: 100px;
+        top:50px;
+        align-self:center;
+        justify-self: center;
+        }
+
+
+        .Header-Promo-text{
+            font-weight:300;
+            font-size:47px;
+        }
+
+
+
+    .logo{
+        color:#feffff;
+        font-weight: 500;
+        font-size: x-large;
+        padding-top: 10px;
     }
 
 
@@ -303,7 +366,52 @@
         .Creation-img a:hover{
             background-color: rgba(207,203,200,255);
         }
+
+
+
+
+        #footer-section{
+            height: 100px;
+            width: 100%;
+            display: inline-flex;
+            flex-direction: row;
+            background-color: black;
+            padding-left:20px ;
+            
+    
+        }
+
        
+        
+             
+        #loopstudios-footer-logo{
+            color: #fefdfd;
+            font-weight:bold;
+            font-size: x-large;
+            padding:5px ;
+           
+            }
+
+
+            #socials_and_footer-logo{
+                display: inline-flex;
+                padding-left: 20px;
+                gap:100px;
+            }
+            
+        
+        
+            #loopstudios-socials{
+            
+                margin-top: 5px;
+               margin-left: 100px;
+                
+            }
+
+        #loopstudios-socials>img{
+            margin:5px ;
+            
+        }
 
     #img1-container{
         background-image: url('/public/images/mobile/image-deep-earth.jpg');

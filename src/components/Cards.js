@@ -16,7 +16,7 @@ const Cards = () => {
 
             
                   <div class="Navbar" id="Header-Nav-Desktop">
-                    <nav >
+                    <nav  >
                     <a href="#">About</a>
                     <a href="#">Events</a>
                     <a href="#">Products</a>
@@ -24,6 +24,22 @@ const Cards = () => {
                     <a href="#">Support</a>
                     </nav>
                   </div>
+
+
+                  <div class="dropdown">
+                      <span><img src='/images/icons/icon-hamburger.svg'/></span>
+                      <div class="dropdown-content">
+                      <p>About</p>
+                      <p>Events</p>
+                      <p>Products</p>
+                      <p>Careers</p>
+                      <p>Support</p>
+                      </div>
+                  </div>
+
+
+
+                 
               
         </div>
 
